@@ -1,0 +1,28 @@
+.first-heading{
+    text-align: center;
+    justify-content: center;
+}
+.mainly{
+    display: flex;
+    font-weight: 100;
+    font-size: small;
+    justify-content: space-around;
+}
+.fa{
+    color: rgb(117, 117, 245);
+}
+@media screen and (max-width: 360px){
+.mainly{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    height: 40px;
+    width: 80px;
+    font-size: 12px;
+}
+}
+    
+
+
+
